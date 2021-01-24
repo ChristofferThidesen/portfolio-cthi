@@ -1,0 +1,110 @@
+body {
+  background-color: #021321;
+  margin: 0 auto;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #161f26;
+}
+
+.navbar-toggler {
+  color: #161f26;
+}
+
+.navbar-toggler-icon {
+  background-color: #d3d3d3;
+}
+
+.logo {
+  height: 48px;
+  width: 96px;
+  padding-left: 2rem;
+}
+
+.navbar a {
+  color: white;
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.hero-banner {
+  position: relative;
+}
+
+.hero-banner p {
+  position: absolute;
+  bottom: 1rem;
+  color: white;
+  font-size: 12px;
+  left: 1rem;
+}
+
+.info-box {
+  background-color: #495259;
+  width: 240px;
+  height: 300px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.info-box p{
+    color: white;
+    text-align: center;
+}
+
+.info-box span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.info-btn{
+    border: none;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.info-btn, a{
+    text-decoration: none;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+}
+
+/* Footer */
+
+.fab.fa-facebook-square {
+    font-size: 2rem;
+  }
+  
+  .fab.fa-instagram {
+    font-size: 2rem;
+  }
+  
+  .fab.fa-twitter-square {
+    font-size: 2rem;
+  }
+
+.footer-icons{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin: 0.5rem auto;
+}
+
+.footer-text{
+    color: white;
+    margin-top: 2rem;
+}

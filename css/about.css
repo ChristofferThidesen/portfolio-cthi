@@ -1,0 +1,58 @@
+body {
+    
+    margin: 0 auto;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+      Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    background-color: #161f26;
+  }
+  
+  .navbar-toggler {
+    color: #161f26;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #d3d3d3;
+  }
+  
+  .logo {
+    height: 48px;
+    width: 96px;
+    padding-left: 2rem;
+  }
+  
+  .navbar a {
+    color: white;
+    text-align: left;
+    margin-left: 2rem;
+  }
+
+  /* Footer */
+
+.fab.fa-facebook-square {
+    font-size: 2rem;
+  }
+  
+  .fab.fa-instagram {
+    font-size: 2rem;
+  }
+  
+  .fab.fa-twitter-square {
+    font-size: 2rem;
+  }
+
+.footer-icons{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin: 0.5rem auto;
+}
+
+.footer-text{
+    color: white;
+    margin-top: 2rem;
+}
