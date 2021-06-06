@@ -1,58 +1,81 @@
 body {
-    
-    margin: 0 auto;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-      Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: bold;
-  }
-  
-  .navbar {
-    background-color: #161f26;
-  }
-  
-  .navbar-toggler {
-    color: #161f26;
-  }
-  
-  .navbar-toggler-icon {
-    background-color: #d3d3d3;
-  }
-  
-  .logo {
-    height: 48px;
-    width: 96px;
-    padding-left: 2rem;
-  }
-  
-  .navbar a {
-    color: white;
-    text-align: left;
-    margin-left: 2rem;
-  }
-
-  /* Footer */
-
-.fab.fa-facebook-square {
-    font-size: 2rem;
-  }
-  
-  .fab.fa-instagram {
-    font-size: 2rem;
-  }
-  
-  .fab.fa-twitter-square {
-    font-size: 2rem;
-  }
-
-.footer-icons{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    width: 150px;
-    margin: 0.5rem auto;
+  margin: 0 auto;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
 }
 
-.footer-text{
-    color: white;
-    margin-top: 2rem;
+nav {
+  background-color: #161f26;
+}
+
+.navbar-toggler {
+  color: #ffffff;
+  border: none;
+}
+
+.navbar-toggler-icon {
+  margin-right: 1rem;
+}
+
+.logo {
+  height: 48px;
+  width: 96px;
+  padding-left: 2rem;
+}
+
+.navbar a {
+  color: white;
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.box-1 {
+  width: 290px;
+  background-color: #021321;
+  padding: 1rem;
+  margin: 32px auto;
+  border-radius: 0.5rem;
+}
+
+.box-1 p {
+  color: white;
+  font-size: 12px;
+}
+
+.box-1 h1 {
+  color: white;
+}
+
+hr {
+  color: white;
+  border: 1.5px solid white;
+  margin-top: 1px;
+}
+
+/* Footer */
+
+.fab.fa-facebook-square {
+  font-size: 2rem;
+}
+
+.fab.fa-instagram {
+  font-size: 2rem;
+}
+
+.fab.fa-twitter-square {
+  font-size: 2rem;
+}
+
+.footer-icons {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin: 0.5rem auto;
+}
+
+.footer-text {
+  color: white;
+  margin-top: 2rem;
 }

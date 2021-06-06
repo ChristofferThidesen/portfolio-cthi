@@ -1,86 +1,85 @@
-body{
-    margin: 0 auto;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+body {
+  margin: 0 auto;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.navbar{
-    background-color: #161f26;
+nav {
+  background-color: #161f26;
 }
 
-.navbar-toggler{
-    border: none;
-    color: #161f26;
+.navbar-toggler {
+  border: none;
 }
 
-.navbar-toggler-icon{
-    background-color: white;
-
+.navbar-toggler-icon {
+  margin-right: 1rem;
 }
 
-.logo{
-    height: 48px;
-    width: 96px;
-    padding-left: 2rem;
+.logo {
+  height: 48px;
+  width: 96px;
+  padding-left: 2rem;
 }
 
-.navbar a{
-    color: white;
+.navbar a {
+  color: white;
+  text-align: left;
+  margin-left: 2rem;
 }
 
-.box{
-    width: 264px;
-    height: 164px;
-    background-color: #021321;
-    border-radius: 24px;
-    margin: 32px auto;
+.box {
+  width: 264px;
+  height: 164px;
+  background-color: #021321;
+  border-radius: 24px;
+  margin: 32px auto;
 }
 
-.column{
-    text-align: center;
+.column {
+  text-align: left;
+  width: 264px;
+  margin: 32px auto;
 }
 
-.projects a{
-    font-size: 24px;
-    text-decoration: none;
-    color: black;
-  }
+.projects a {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
 
 .projects p {
-    font-size: 16px;
-    margin: 1rem auto;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-      Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: bold;
-  }
-
+  font-size: 16px;
+  margin: 1rem auto;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+}
 
 /* Footer */
 
 .fab.fa-facebook-square {
-    font-size: 2rem;
-  }
-  
-  .fab.fa-instagram {
-    font-size: 2rem;
-  }
-  
-  .fab.fa-twitter-square {
-    font-size: 2rem;
-  }
-
-.footer-icons{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    width: 150px;
-    margin: 0.5rem auto;
+  font-size: 2rem;
 }
 
-.footer-text{
-    color: white;
-    margin-top: 2rem;
+.fab.fa-instagram {
+  font-size: 2rem;
 }
-  
 
+.fab.fa-twitter-square {
+  font-size: 2rem;
+}
+
+.footer-icons {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin: 0.5rem auto;
+}
+
+.footer-text {
+  color: white;
+  margin-top: 2rem;
+}
